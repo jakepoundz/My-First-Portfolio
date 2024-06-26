@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    flex-direction: column;
+  }
+  main {
+    display: flex;
+    flex-direction: row;
+    flex: auto; 
+  }
+  article {
+    flex: 2; 
+    overflow-y: auto; 
+  }
+  aside {
+    flex: 1; 
+    overflow-y: auto; 
+  }
+  @media (max-width: 768px) { 
+    body {
+      flex-direction: column;
+    }
+    main {
+      flex-direction: column; 
+    }
+    article, aside {
+      flex: 1; 
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    }
+    article, aside {
+      flex: 1; /* Both article and aside take up equal space */
+    }
