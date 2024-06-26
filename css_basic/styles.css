@@ -15,16 +15,7 @@ body {
     flex: 1; 
     overflow-y: auto; 
   }
-  @media (max-width: 768px) { 
-    body {
-      flex-direction: column;
-    }
-    main {
-      flex-direction: column; 
-    }
-    article, aside {
-      flex: 1; 
-    }
+  
 
 
 
@@ -43,7 +34,3 @@ body {
 
 
 
-    }
-    article, aside {
-      flex: 1; /* Both article and aside take up equal space */
-    }
